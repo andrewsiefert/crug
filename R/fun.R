@@ -25,7 +25,7 @@ std_error <- function(x) {
 #' @examples
 #' coin_flip()
 coin_flip <- function() {
-  sample(c("heads", "tails"))
+  sample(c("heads", "tails"), 1)
 }
 
 
